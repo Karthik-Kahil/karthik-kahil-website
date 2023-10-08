@@ -1,12 +1,16 @@
-import Header from "./features/Header/Header";
-import NavBar from "./features/NavBar/NavBar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import AppLayout from "./features/AppLayout";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Header />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<AppLayout />}>
+          <Route path="/" element={<HomePage />}></Route>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

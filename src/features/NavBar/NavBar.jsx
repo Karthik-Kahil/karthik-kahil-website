@@ -1,10 +1,13 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const Nav = styled.nav`
+  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   font-size: 1.1rem;
-  font-family: "Poppins", sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 `;
 
 const Ul = styled.ul`
@@ -19,19 +22,19 @@ function NavBar() {
     <Nav>
       <Ul>
         <li>
-          <a href="">Work</a>
+          <NavLink to={"/"}>Work</NavLink>
         </li>
         <li>
-          <a href="">About</a>
+          <NavLink>About</NavLink>
         </li>
         <li>
-          <a href="">Play</a>
+          <NavLink>Play</NavLink>
         </li>
         <li>
-          <a href="">Notes</a>
+          <NavLink>Notes</NavLink>
         </li>
         <li>
-          <a href="">Contact</a>
+          <NavLink>Contact</NavLink>
         </li>
       </Ul>
     </Nav>

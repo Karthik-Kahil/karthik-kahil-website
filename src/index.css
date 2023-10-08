@@ -5,6 +5,21 @@
   src: url(fonts/Acorn-Regular.woff);
 }
 
+@font-face {
+  font-family: AcornBold;
+  src: url(fonts/Acorn-Bold.woff);
+}
+
+@font-face {
+  font-family: AcornSemiBold;
+  src: url(fonts/Acorn-SemiBold.woff);
+}
+
+@font-face {
+  font-family: AcornLight;
+  src: url(fonts/Acorn-Light.woff);
+}
+
 *,
 *::before,
 *::after {
@@ -15,4 +30,33 @@
 
   /* Creating animations for dark mode */
   transition: background-color 0.3s, border 0.3s;
+}
+
+a {
+  color: var(--color-primary-a50);
+}
+
+/** CSS PRIMARY COLORS */
+:root {
+  --color-primary-a0: #ffffff;
+  --color-primary-a10: #c2d4cf;
+  --color-primary-a20: #88aaa1;
+  --color-primary-a30: #4e8176;
+  --color-primary-a50: #015a4d;
+  --color-primary-a60: #0d443a;
+  --color-primary-a70: #102f29;
+  --color-primary-a80: #0d1b18;
+
+  --color-primary-a90: #000000;
+
+  --gradient-main-background: rgb(225, 223, 198);
+  --gradient-main-background: linear-gradient(
+    311deg,
+    rgba(225, 223, 198, 1) 0%,
+    rgba(226, 226, 184, 1) 18%,
+    rgba(219, 235, 198, 1) 40%,
+    rgba(210, 237, 207, 1) 60%,
+    rgba(229, 222, 208, 1) 79%,
+    rgba(219, 225, 203, 1) 100%
+  );
 }
