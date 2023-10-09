@@ -11,6 +11,14 @@ const H2 = styled.h2`
   line-height: 7rem;
   text-align: center;
   color: var(--color-primary-a50);
+  &:after {
+    content: "👔";
+    position: absolute;
+  }
+  &::before {
+    content: "🦄";
+    position: absolute;
+  }
 `;
 
 const P = styled.p`
