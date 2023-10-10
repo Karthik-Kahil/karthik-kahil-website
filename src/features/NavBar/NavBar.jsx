@@ -17,12 +17,18 @@ const Ul = styled.ul`
   list-style: none;
 `;
 
+const StyledNavLink = styled(NavLink)`
+  background-color: var(--color-primary-a30);
+  padding: 7px 20px;
+  border-radius: 20px;
+`;
+
 function NavBar() {
   return (
     <Nav>
       <Ul>
         <li>
-          <NavLink to={"/"}>Work</NavLink>
+          <StyledNavLink to={"/"}>Work</StyledNavLink>
         </li>
         <li>
           <NavLink>About</NavLink>

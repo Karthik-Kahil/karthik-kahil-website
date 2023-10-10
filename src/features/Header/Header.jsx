@@ -24,7 +24,7 @@ const H2 = styled.h2`
 const P = styled.p`
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
   padding-top: 3rem;
   color: var(--color-primary-a30);

@@ -30,6 +30,7 @@
 
   /* Creating animations for dark mode */
   transition: background-color 0.3s, border 0.3s;
+  /* overflow: hidden; */
 }
 
 a {
@@ -38,6 +39,7 @@ a {
 
 /** CSS PRIMARY COLORS */
 :root {
+  --color-primary-main: #ede7de;
   --color-primary-a0: #ffffff;
   --color-primary-a10: #c2d4cf;
   --color-primary-a20: #88aaa1;
