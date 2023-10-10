@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledHeader = styled.header`
   padding: 6rem;
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
 `;
 
 const H2 = styled.h2`

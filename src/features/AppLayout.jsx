@@ -3,8 +3,8 @@ import NavBar from "./NavBar/NavBar";
 import styled from "styled-components";
 
 const StyledHeader = styled.div`
-  background-color: var(--color-primary-main);
-  display: block;
+  background: rgb(217, 225, 213);
+  background: var(--gradient-main-background);
 `;
 
 function AppLayout() {

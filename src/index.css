@@ -49,6 +49,11 @@ a {
   --color-primary-a70: #102f29;
   --color-primary-a80: #0d1b18;
 
+  --color--secondary-1: #d094e5;
+  --color--secondary-2: #a3dbd4;
+  --color-secondary-3: #e7b89c;
+  --color-secondary-4: #bddff9;
+
   --color-primary-a90: #000000;
 
   --gradient-main-background: rgb(225, 223, 198);
@@ -60,5 +65,14 @@ a {
     rgba(210, 237, 207, 1) 60%,
     rgba(229, 222, 208, 1) 79%,
     rgba(219, 225, 203, 1) 100%
+  );
+
+  --gradient-body-background: rgb(235, 229, 218);
+  --gradient-body-background: linear-gradient(
+    0deg,
+    rgba(235, 229, 218, 1) 0%,
+    rgba(238, 231, 222, 1) 40%,
+    rgba(238, 231, 222, 1) 63%,
+    rgba(238, 231, 222, 0) 100%
   );
 }
