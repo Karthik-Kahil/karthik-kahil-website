@@ -26,7 +26,9 @@ const P = styled.p`
   font-size: 1.2rem;
   font-weight: 300;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 4rem;
+  max-width: 600px;
+  margin: 0 auto;
   color: var(--color-primary-a30);
 `;
 
