@@ -15,8 +15,9 @@ const StyleBoxGrid = styled.div`
       grid-template-columns: 1fr 0.6fr;
     `}
 
-  grid-template-rows: 500px 500px;
+  grid-template-rows: 500px;
   grid-gap: 50px;
+  margin-bottom: 10rem;
 `;
 
 export default StyleBoxGrid;

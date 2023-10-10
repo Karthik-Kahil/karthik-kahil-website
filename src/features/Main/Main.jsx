@@ -24,6 +24,23 @@ function Main() {
           imgLink={"https://www.seanhalpin.xyz/work/docs/docs-hero@2x.png"}
         />
       </StyleBoxGrid>
+
+      <StyleBoxGrid type="right">
+        <StyledBox
+          color={"--color--secondary-3"}
+          para={"FIGMA"}
+          header={"Plugins"}
+          imgLink={"https://www.seanhalpin.xyz/work/docs/docs-hero@2x.png"}
+        />
+        <StyledBox
+          color={"--color--secondary-4"}
+          para={"HELP SCOUT"}
+          header={"Mobile"}
+          imgLink={
+            "https://www.seanhalpin.xyz/work/mobile/mobile-header_01@2x.png"
+          }
+        />
+      </StyleBoxGrid>
     </StyledMain>
   );
 }

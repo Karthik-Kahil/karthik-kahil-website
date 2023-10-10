@@ -6,8 +6,20 @@ const StyledBoxs = styled.div`
   padding: 2rem;
   height: 100%;
   border-radius: 50px;
-
+  cursor: pointer;
   background-color: var(${(props) => props.color});
+  transition: all 0.5s ease;
+
+  &:hover {
+    img {
+      transform: translateY(10px);
+      transition: all 0.5s ease;
+    }
+    transform: translateY(-5);
+    -webkit-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, 0.1);
+  }
 
   & p {
     font-family: "Poppins", sans-serif;
@@ -22,8 +34,11 @@ const StyledBoxs = styled.div`
   }
 
   & img {
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
+    bottom: 0px;
+    transition: all 0.5s ease;
   }
 
   & div {
