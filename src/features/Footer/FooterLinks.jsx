@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const List = styled.li`
@@ -7,12 +8,15 @@ const List = styled.li`
   color: var(--color-primary-a30);
   line-height: 2.5rem;
   list-style: none;
-  cursor: pointer;
 `;
 
 // eslint-disable-next-line react/prop-types
 function FooterLinks({ children }) {
-  return <List>{children}</List>;
+  return (
+    <List>
+      <Link to="/">{children}</Link>
+    </List>
+  );
 }
 
 export default FooterLinks;

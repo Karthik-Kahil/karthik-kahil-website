@@ -16,7 +16,7 @@ const StyledFooter = styled.div`
 const FooterGrid = styled.footer`
   display: grid;
   grid-template-columns: 200px 1fr auto;
-  padding: 0 10%;
+  padding: 0 15%;
   background: var(--color-primary-footer);
 `;
 
