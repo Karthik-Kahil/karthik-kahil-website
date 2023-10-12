@@ -9,6 +9,8 @@ const StyledBoxs = styled.div`
   cursor: pointer;
   background-color: var(${(props) => props.color});
   transition: all 0.5s ease;
+  color: ${(props) =>
+    props.whiteText === "whiteText" ? `#ffffff` : `#364442`};
 
   &:hover {
     img {

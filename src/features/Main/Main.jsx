@@ -6,7 +6,7 @@ import SubtextStyle from "../../ui/SubtextStyle";
 
 const StyledMain = styled.main`
   background: var(--gradient-body-background);
-  padding: 0 2% 7rem 2%;
+  padding: 0 2% 3rem 2%;
 `;
 
 function Main() {
