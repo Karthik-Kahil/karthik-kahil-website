@@ -17,15 +17,17 @@ const FooterGrid = styled.footer`
   display: grid;
   grid-template-columns: 200px 1fr auto;
   padding: 0 10%;
-  background: var(--color-primary-main);
+  background: var(--color-primary-footer);
 `;
 
 const Description = styled.p`
   font-family: "Poppins", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
-  color: var(--color-primary-a60);
+  color: var(--color-primary-a30);
   margin-bottom: 1.5rem;
+  grid-column: 1 / 3;
+  margin-bottom: 8rem;
 `;
 
 function Footer() {
@@ -48,7 +50,7 @@ function Footer() {
           <FooterLinks>Emi Calculator</FooterLinks>
           <FooterLinks>Video Downloader</FooterLinks>
           <FooterLinks>CV</FooterLinks>
-          <FooterLinks>LinkedIn</FooterLinks>
+          <FooterLinks>More...</FooterLinks>
         </ul>
       </StyledFooter>
       <StyledFooter>
@@ -57,7 +59,7 @@ function Footer() {
           <FooterLinks>Message</FooterLinks>
         </ul>
       </StyledFooter>
-      <Description>© 2023 Seán Halpin • Colophon</Description>
+      <Description>© 2023 Karthik Kahil • Colophon</Description>
     </FooterGrid>
   );
 }

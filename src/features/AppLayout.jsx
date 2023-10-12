@@ -10,11 +10,13 @@ const StyledHeader = styled.div`
 
 function AppLayout() {
   return (
-    <StyledHeader>
-      <NavBar />
-      <Outlet />
+    <>
+      <StyledHeader>
+        <NavBar />
+        <Outlet />
+      </StyledHeader>
       <Footer />
-    </StyledHeader>
+    </>
   );
 }
 

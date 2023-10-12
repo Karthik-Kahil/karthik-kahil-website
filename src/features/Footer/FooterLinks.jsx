@@ -7,6 +7,7 @@ const List = styled.li`
   color: var(--color-primary-a30);
   line-height: 2.5rem;
   list-style: none;
+  cursor: pointer;
 `;
 
 // eslint-disable-next-line react/prop-types

@@ -31,13 +31,13 @@ function NavBar() {
           <StyledNavLink to={"/"}>Work</StyledNavLink>
         </li>
         <li>
-          <NavLink>About</NavLink>
+          <NavLink to={"about"}>About</NavLink>
         </li>
         <li>
-          <NavLink>Play</NavLink>
+          <NavLink to={"play"}>Play</NavLink>
         </li>
         <li>
-          <NavLink>Notes</NavLink>
+          <NavLink to={"notes"}>Notes</NavLink>
         </li>
         <li>
           <NavLink>Contact</NavLink>

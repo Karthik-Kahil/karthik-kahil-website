@@ -45,6 +45,7 @@ a {
 /** CSS PRIMARY COLORS */
 :root {
   --color-primary-main: #ede7de;
+  --color-primary-footer: #ebe5da;
   --color-primary-a0: #ffffff;
   --color-primary-a10: #c2d4cf;
   --color-primary-a20: #88aaa1;
