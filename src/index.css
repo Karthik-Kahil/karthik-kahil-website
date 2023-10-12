@@ -33,6 +33,10 @@
   /* overflow: hidden; */
 }
 
+body {
+  background-color: var(--color-primary-main);
+}
+
 a {
   color: var(--color-primary-a50);
 }
@@ -45,6 +49,7 @@ a {
 /** CSS PRIMARY COLORS */
 :root {
   --color-primary-main: #ede7de;
+  --color-primary-nav: #f3f1ebfb;
   --color-primary-footer: #ebe5da;
   --color-primary-a0: #ffffff;
   --color-primary-a10: #c2d4cf;

@@ -3,7 +3,7 @@ import HeaderStyle from "../../ui/HeaderStyle";
 import SubtextStyle from "../../ui/SubtextStyle";
 
 const StyledHeader = styled.header`
-  padding-top: 6rem;
+  padding-top: 12rem;
 `;
 
 function Header() {
