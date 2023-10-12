@@ -37,6 +37,11 @@ a {
   color: var(--color-primary-a50);
 }
 
+::selection {
+  color: var(--color-primary-a0);
+  background: var(--color-primary-a50);
+}
+
 /** CSS PRIMARY COLORS */
 :root {
   --color-primary-main: #ede7de;

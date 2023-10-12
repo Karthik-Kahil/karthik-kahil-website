@@ -12,10 +12,11 @@ const StyledBoxs = styled.div`
 
   &:hover {
     img {
-      transform: translateY(10px);
+      transform: translateY(20px);
       transition: all 0.5s ease;
     }
-    transform: translateY(-5);
+    transform: translateY(-10px);
+
     -webkit-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, 0.1);
@@ -23,13 +24,15 @@ const StyledBoxs = styled.div`
 
   & p {
     font-family: "Poppins", sans-serif;
-    color: #364442;
+    color: ${(props) =>
+      props.whiteText === "whiteText" ? `#ffffff` : `#364442`};
     letter-spacing: 4px;
   }
 
   & h2 {
     font-family: "AcornRegular", Arial, sans-serif;
-    color: #364442;
+    color: ${(props) =>
+      props.whiteText === "whiteText" ? `#ffffff` : `#364442`};
     font-size: 3rem;
   }
 

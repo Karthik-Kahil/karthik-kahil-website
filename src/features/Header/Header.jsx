@@ -1,35 +1,9 @@
 import styled from "styled-components";
+import HeaderStyle from "../../ui/HeaderStyle";
+import SubtextStyle from "../../ui/SubtextStyle";
 
 const StyledHeader = styled.header`
-  padding: 6rem;
-  padding-bottom: 2rem;
-`;
-
-const H2 = styled.h2`
-  font-family: "AcornBold", Arial, sans-serif;
-  font-size: 7rem;
-  line-height: 7rem;
-  text-align: center;
-  color: var(--color-primary-a50);
-  &:after {
-    content: "👔";
-    position: absolute;
-  }
-  &::before {
-    content: "🦄";
-    position: absolute;
-  }
-`;
-
-const P = styled.p`
-  font-family: "Poppins", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 300;
-  text-align: center;
-  padding-top: 4rem;
-  max-width: 600px;
-  margin: 0 auto;
-  color: var(--color-primary-a30);
+  padding-top: 6rem;
 `;
 
 function Header() {
@@ -37,13 +11,13 @@ function Header() {
     <StyledHeader>
       <main>
         <div>
-          <H2>
+          <HeaderStyle>
             Hi. I&rsquo;m Karthik. <br />A Developer.
-          </H2>
-          <P>
+          </HeaderStyle>
+          <SubtextStyle>
             I&rsquo;m passionate about crafting experiences that are engaging,
             accessible, and user-centric.
-          </P>
+          </SubtextStyle>
         </div>
       </main>
     </StyledHeader>

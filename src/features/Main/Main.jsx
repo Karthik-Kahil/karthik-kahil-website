@@ -1,10 +1,12 @@
 import styled from "styled-components";
 import StyledBox from "../../ui/StyledBox";
 import StyleBoxGrid from "../../ui/StyleBoxGrid";
+import HeaderStyle from "../../ui/HeaderStyle";
+import SubtextStyle from "../../ui/SubtextStyle";
 
 const StyledMain = styled.main`
   background: var(--gradient-body-background);
-  padding: 5rem 5%;
+  padding: 0 2% 7rem 2%;
 `;
 
 function Main() {
@@ -39,6 +41,28 @@ function Main() {
           imgLink={
             "https://www.seanhalpin.xyz/work/mobile/mobile-header_01@2x.png"
           }
+        />
+      </StyleBoxGrid>
+
+      <HeaderStyle>In Progress.</HeaderStyle>
+      <SubtextStyle>
+        Work in various states of design and development, from side projects, to
+        in-flight product design and development.
+      </SubtextStyle>
+
+      <StyleBoxGrid type="right">
+        <StyledBox
+          color={"--color-primary-a0"}
+          para={"MULTIPLAYER"}
+          header={"Doodler"}
+          imgLink={"https://www.seanhalpin.xyz/work/docs/docs-hero@2x.png"}
+        />
+        <StyledBox
+          color={"--color-primary-a90"}
+          para={"MOBILE"}
+          header={"Dark Mode"}
+          whiteText={"whiteText"}
+          imgLink={"https://www.seanhalpin.xyz/work/hsdm/darkmode_01@2x.png"}
         />
       </StyleBoxGrid>
     </StyledMain>
