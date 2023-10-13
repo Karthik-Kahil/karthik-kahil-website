@@ -34,55 +34,69 @@ const Ul = styled.ul`
     transition: all 0.5s ease 0s;
   }
 
-  li:nth-child(1) {
+  /* & li:nth-child(2) a.active,
+  li ~ .animation {
+    background-color: #076ec8;
+  } */
+
+  & li:nth-child(1) {
     width: 80px;
     background-color: antiquewhite;
   }
 
-  li:nth-child(2) {
+  & li:nth-child(2) {
     background-color: #443522;
     width: 90px;
   }
 
-  li:nth-child(3) {
+  & li:nth-child(3) {
     background-color: #cf9851;
     width: 70px;
   }
 
-  li:nth-child(4) {
+  & li:nth-child(4) {
     background-color: #c87507;
     width: 90px;
   }
 
-  li:nth-child(5) {
+  & li:nth-child(5) {
     background-color: #3e2504;
     width: 90px;
   }
 
-  .start-home,
-  li:nth-child(1):hover ~ .animation {
+  & li:nth-child(1) a.active,
+  & .animation {
     width: 80px;
     left: 0px;
+    background-color: #dd8614;
   }
 
-  li:nth-child(2):hover ~ .animation {
+  & li:nth-child(2) a.active,
+  li ~ .animation {
     width: 90px;
     left: 80px;
+    background-color: aquamarine;
   }
 
-  li:nth-child(3):hover ~ .animation {
+  & li:nth-child(3) a.active,
+  ul ~ .animation {
     width: 70px;
     left: 170px;
+    background-color: aquamarine;
   }
 
-  li:nth-child(4):hover ~ .animation {
+  & li:nth-child(4) a.active,
+  ul ~ .animation {
     width: 90px;
     left: 240px;
+    background-color: aquamarine;
   }
 
-  li:nth-child(5):hover ~ .animation {
+  & li:nth-child(5) a.active,
+  ul ~ .animation {
     width: 90px;
     left: 330px;
+    background-color: aquamarine;
   }
 `;
 
